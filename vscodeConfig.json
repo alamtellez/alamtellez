@@ -1,0 +1,81 @@
+{
+    "window.zoomLevel": 1,
+    "git.autofetch": true,
+    "editor.minimap.enabled": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.lineNumbers": "off",
+    "[javascript]": {
+        "editor.tabSize": 2
+    },
+    "[typescript]": {
+        "editor.tabSize": 2
+    },
+    "[typescriptreact]": {
+        "editor.tabSize": 2
+    },
+    "macros": {
+        "saveAndExitVimInsertMode": [
+            "workbench.action.files.save",
+            "extension.vim_escape"
+        ]
+    },
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.handleKeys": {
+        "<C-k>": false,
+        "<C-w>": false,
+    },
+    "vim.leader": "<space>",
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "p"
+            ],
+            "after": [
+                "]",
+                "p"
+            ]
+        },
+        {
+            "before": [
+                "!"
+            ],
+            "after": [
+                "^"
+            ]
+        },
+        {
+            "before": ["<leader>", "d"],
+            "after": ["\"", "_", "d", "d"]
+        },
+        {
+            "before": ["c"],
+            "after": ["\"", "_", "c"]
+        },
+        {
+            "before": ["x"],
+            "after": ["\"", "_", "x"]
+        },
+        {
+            "before": ["<leader>", "m"],
+            "commands": [
+                "bookmarks.toggle"
+            ]
+        }
+    ],
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "files.associations": {
+        "*.tsx": "typescriptreact"
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "atomKeymap.promptV3Features": true,
+    "workbench.activityBar.visible": false,
+    "window.menuBarVisibility": "toggle",
+    "workbench.statusBar.visible": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "terminal.integrated.fontFamily": "Cascadia Code PL",
+    "emmet.triggerExpansionOnTab": true
+}
