@@ -77,5 +77,11 @@
     "workbench.statusBar.visible": true,
     "workbench.startupEditor": "newUntitledFile",
     "terminal.integrated.fontFamily": "Cascadia Code PL",
-    "emmet.triggerExpansionOnTab": true
+    "emmet.triggerExpansionOnTab": true,
+    "FSharp.useSdkScripts": true,
+    "workbench.colorTheme": "Visual Studio 2019 Dark",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorCustomizations": {
+        "editor.background": "#0000007a",
+    }
 }
