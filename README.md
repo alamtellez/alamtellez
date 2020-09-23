@@ -1,4 +1,8 @@
-### Hi there 👋
+# Alam Téllez
+
+Hi visitor, you are now entering the vast land of my unfinished projects. Feel confortable to explore and be amazed... JK.
+
+I'm a tech enthusiast exloring different areas such as creative coding, functional programming, blockchain, web development and others.
 
 <!--
 **alamtellez/alamtellez** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
